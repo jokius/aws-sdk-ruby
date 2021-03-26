@@ -11,8 +11,8 @@ application.
   s.author = 'Amazon Web Services'
   s.homepage = 'http://aws.amazon.com/sdkforruby'
 
-  s.add_dependency('nokogiri', '~> 1')
-  s.add_dependency('json', '~> 1')
+  s.add_dependency('nokogiri', '>= 1')
+  s.add_dependency('json', '>= 1')
 
   s.files = [
     'ca-bundle.crt',
